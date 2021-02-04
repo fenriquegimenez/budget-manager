@@ -1,0 +1,27 @@
+{
+  "name": "budget-manager",
+  "version": "1.0.0",
+  "description": "A personal budget manager API built with node, express, and git.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenriquegimenez/budget-manager.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Enrique Giménez <fenriquegimenez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenriquegimenez/budget-manager/issues"
+  },
+  "homepage": "https://github.com/fenriquegimenez/budget-manager#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
